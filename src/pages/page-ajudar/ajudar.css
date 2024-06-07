@@ -15,7 +15,13 @@ body{
     border-radius: 15px;
     color: white;
 }
-
+.login h1{
+    font-size: 30px;
+    margin: 0;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    background-color: rgba(0, 0, 255, 0.582);
+}
 .login h1,h2{
     text-align: center;
 }
@@ -30,7 +36,7 @@ input {
 }
 
 button {
-    background-color: dodgerblue;
+    background-color: rgba(3,29,120,1);
     border: none;
     border-radius: 6px;
     padding: 10px;
