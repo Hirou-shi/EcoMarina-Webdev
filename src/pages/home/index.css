@@ -174,7 +174,6 @@ a:hover{
 
 .slides input {
   display: none;
-
 }
 
 .slide {
@@ -185,6 +184,7 @@ a:hover{
 
 .slide img {
   width: 800px;
+  height: 400px;
 }
 
 .manual-navigation {
