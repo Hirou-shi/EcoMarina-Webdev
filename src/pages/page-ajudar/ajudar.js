@@ -1,11 +1,8 @@
-const emailLogin ="email"
-const senhaLogin =123
+function verificar(){
+    var emailUsuario = document.getElementById("email");
+    var senhaUsuario = document.getElementById("senha");
 
-function verificar() {
-    var emailUsuario = document.getElementById('email1')
-    var senhaUsuario = document.getElementById('senha1')
-
-    if (emailUsuario == emailLogin & senhaUsuario == senhaLogin){
+   if (emailUsuario == 1234 && senhaUsuario == 1234){
        alert("parabéns, você está logado")
     }
     else{

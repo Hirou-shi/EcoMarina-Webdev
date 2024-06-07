@@ -3,18 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tela de criar login</title>
+    <title>Log In</title>
     <link rel="stylesheet" href="ajudar.css">
 </head>
 <body>
-    <div>
-        <h1>Tela de login</h1>
-        <input id="email1" type="text" placeholder="E-mail">
-        <br><br>
-        <input id="senha1" type="password" placeholder="Senha">
-        <br><br>
-        <button onclick="verificar()">Enviar</button>
+    <div class="container">
+    <main>
+    <div class="login">
+        <h1>EcoMarina</h1>
+        <h2>Log In</h2>
+        <label for="email">Email</label>
+        <input id="email" type="email" placeholder="E-mail">
+        <label for="senha">Senha</label>
+        <input id="senha" type="password" placeholder="Senha">
+        <button onclick="verificar()" type="submit">Enviar</button>
     </div>
-    <script src="ajudar.js"></script>
+    </main>
+</div>
+<script src="ajudar.js"></script>
 </body>
 </html>

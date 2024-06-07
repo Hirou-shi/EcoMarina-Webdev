@@ -1,11 +1,12 @@
-body {
+body{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
-    background-image: linear-gradient(45deg, cyan, aqua, dodgerblue);
+    background: rgb(15,15,92);
+    background: linear-gradient(138deg, rgba(15,15,92,1) 0%, rgba(3,29,120,1) 19%, rgba(3,20,78,1) 100%);
 }
 
-div {
-    background-color: rgba(0, 0, 0, 0.4);
+.login {
+    background-color: rgba(0, 0, 0, 0.548);
     position: absolute;
     top: 50%;
     left: 50%;
@@ -15,6 +16,14 @@ div {
     color: white;
 }
 
+.login h1,h2{
+    text-align: center;
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
 input {
     padding: 15px;
     font-size: 15px;
