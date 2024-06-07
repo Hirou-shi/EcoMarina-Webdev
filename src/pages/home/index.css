@@ -1,3 +1,4 @@
+
 body, html {
   font-family: "glacial", sans-serif;
   margin: 0;
@@ -5,7 +6,6 @@ body, html {
   align-items: center;
   justify-content: center;
   background-color: rgb(255, 255, 255);
-  zoom: 1.1;
 }
 .container {
   text-align: center;
@@ -256,4 +256,48 @@ a:hover{
 }
 #radio4:checked ~.navigation-auto .auto-btn4{
   background-color: white;
+}
+
+footer{
+  display: flex;
+  padding: 100px;
+  background: rgb(255,255,255);
+  background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(63,121,175,0.6138830532212884) 98%);
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+footer h1{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #0038FF;
+  font-size: 50px;
+}
+ footer h6{
+  font-size: 30px;
+  color: rgb(86, 86, 88);
+ }
+footer ul li{
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+@media(max-width: 450px) {
+*{
+  font-size: 20px;
+  zoom: 0.84;
+}
+}
+
+@media (max-width: 768px) and (max-width: 1024px){
+  *{
+    font-size: 20px;
+    zoom: 0.84;
+  }
+}
+
+@media (orientation: landscape){
+
 }
