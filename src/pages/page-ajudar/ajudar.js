@@ -3,7 +3,7 @@ function verificar(){
     var senhaUsuario = document.getElementById("senha").value;
 
    if (emailUsuario == "1234" && senhaUsuario == 1234){
-       alert("parabéns, você está logado")
+       alert("Logado com sucesso!")
         window.location = "/src/pages/home/index.html"
     }
     else{
